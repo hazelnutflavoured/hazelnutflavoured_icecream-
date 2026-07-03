@@ -2,84 +2,105 @@
 <html>
 <head>
     <title>Resume</title>
+    <link rel="stylesheet" href="resume_style.css">
 </head>
 
 <body>
-    <h1>Resume</h1>
-    <hr>
 
-    <img src="IMG_8944.jpg" alt="프로필 이미지" width="200">
+    <header>
+        <img src="IMG_8944.jpg" alt="profile">
+        <h1>Hazel Kwon</h1>
+        <p>MPharm Student</p>
+        <p>London, UK / Seoul, South Korea</p>
+    </header>
 
-    <h2>Basic Information</h2>
-    <p><strong>Name:</strong> Hazel (Gabin) Kwon</p>
-    <p><strong>Age:</strong> 25</p>
-    <p><strong>Birth Year:</strong> 2001</p>
-    <p><strong>Based in:</strong> London, UK / Seoul, South Korea</p>
+    <main>
 
-    <h2>GitHub</h2>
-    <p>
-        <a href="https://github.com/hazelnutflavoured?tab=repositories" target="_blank">
-            GitHub Repositories
-        </a>
-    </p>
-    
-    <h2>Interest</h2>
-    <div>
-        <ul>
-            <li>취미: 컨텐츠 소비</li>
-            <li>좋아하는 음식: 피자</li>
-            <li>좋아하는 영화: About Time</li>
-            <li>좋아하는 책: Normal People</li>
-        </ul>
-     </div>   
+        <section>
+            <h2>About Me</h2>
+            <p>
+                UCL MPharm student interested in
+                Healthcare AI.
+            </p>
+        </section>
 
-    <h2>Education & Experience</h2>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>기간</th>
-                <th>소속</th>
-                <th>내용</th>
-            </tr>
-        </thead>
+        <section>
+            <h2>Education</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Institution</th>
+                        <th>Degree</th>
+                    </tr>
+                </thead>
 
-        <tbody>
-            <tr>
-                <td>2022 ~ 2028</td>
-                <td>UCL</td>
-                <td>Master of Pharmacy (MPharm) 재학 / 졸업 예정</td>
-            </tr>
-            <tr>
-                <td>2025 02</td>
-                <td>Cambridge University Hospital</td>
-                <td>Pharmacy Intern</td>
-            </tr>
-            <tr>
-                <td>현재</td>
-                <td>OZ Coding school</td>
-                <td>AI Healthcare Bootcamp 수강 중</td>
-            </tr>
-        </tbody>
-    </table>
+                <tbody>
+                    <tr>
+                        <td>2022 - 2028</td>
+                        <td>UCL</td>
+                        <td>MPharm (Master of Pharmacy)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-    <h2>Email Me</h2>
-    <form>
-        <p>
-            <label>이름:</label><br>
-            <input type="text" name="name">
-        </p>
+        <section>
+            <h2>Experience</h2>
+            <ul>
+                <li>Cambridge University Hospital Pharmacy Intern</li>
+                <li>Pusan National University Research Assistant</li>
+                <li>OZ AI Healthcare Bootcamp</li>
+            </ul>
+        </section>
 
-        <p>
-            <label>이메일:</label><br>
-            <input type="email" name="email">
-        </p>
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li>Smoking Impact Prediction</li>
+                <li>Infertility Prediction ML Model</li>
+                <li>Rare Disease Diagnosis Support System</li>
+            </ul>
+        </section>
 
-        <p>
-            <label>메시지:</label><br>
-            <input type="text" name="message">
-        </p>
+        <section>
+            <h2>Skills</h2>
 
-        <button type="submit">메일 보내기</button>
-    </form>
+            <div class="skills">
+                <span>Python</span>
+                <span>SQL</span>
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Machine Learning</span>
+            </div>
+
+        </section>
+
+        <section>
+            <h2>GitHub</h2>
+
+            <a id="github" href="https://github.com/hazelnutflavoured?tab=repositories">
+                Visit My GitHub
+            </a>
+        </section>
+
+        <section>
+            <h2>Contact Me</h2>
+
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Message">
+
+                <button type="submit">
+                    Send
+                </button>
+            </form>
+        </section>
+
+    </main>
+
 </body>
 </html>
