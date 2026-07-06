@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4f6f8;
+    font-family: Arial, sans-serif;
+}
+
+header h1 {
+    color: white;
+    display: block;
+    margin-top: 15px;
+}
+
+.resume-header {
+
+    background: #776d6a;
+
+    color: white;
+
+}
+
+.resume-header p {
+
+    color: white !important;
+
+}
+
+.resume-header h1 {
+
+    color: white;
+
+}
+
+#fw-bold {
+    font-weight: bold;
+    color: #8a7b70;
+}
+
+.profile-img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    object-position: center 35%;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+header {
+    background: #776d6a;
+    color: white;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #8a7b70;
+}
+
+.badge {
+    background-color: #d0c4c7 !important;
+    color: #333;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+#github {
+    color: #8a7b70;
+    border-color: #8a7b70;
+}
+
+#github:hover {
+    background-color: #8a7b70;
+    color: white;
+}
+
+button.btn-dark {
+    background-color: #8a7b70;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .profile-img {
+        width: 130px;
+        height: 130px;
+    }
+}
